@@ -99,3 +99,14 @@ const deleteUser = (id) => {
 
 deleteUser(1);
 console.log(data);
+
+// Ques 1 - > Add marks column and take sum of it
+const users = [
+    { id: 1, name: "Abhi", age: 22 },
+    { id: 2, name: "Riya", age: 24 },
+];
+
+const updated = (users.map(u => ({ ...u, marks: Math.floor(Math.random() * 50) })));
+
+const total = updated.reduce((acc, u) => acc + u.marks, 0);
+console.log(updated, total);
