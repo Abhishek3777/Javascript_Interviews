@@ -10,6 +10,9 @@ const obj = { name: 'Dexter', age: 22 };
 for (let fruit of arr) {
     // console.log(fruit);
 }
+for(let i = 0; i < arr.length; i++){
+    console.log(arr[i]);
+}
 
 //3.  For in -> Objects, arrays
 for (let key in obj) {
