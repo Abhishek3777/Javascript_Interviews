@@ -76,28 +76,28 @@ data.map((dataItem) => (
 // 5 Count how many tags each product has.
 let count = 0;
 
-// data.map((dataItem) => {
-//     console.log(`${dataItem.name} has ${dataItem.tags.length} tags`);
-//     count += dataItem.tags.length;
-// })
-// console.log(count);
+data.map((dataItem) => {
+    console.log(`${dataItem.name} has ${dataItem.tags.length} tags`);
+    count += dataItem.tags.length;
+})
+console.log(count);
 
 // 6 Conditional + Map/Filter Combo
 
 // Print names of only products that are in stock.
 
-// data.map((dataItem) => {
-//     if (dataItem.inStock) {
-//         console.log(`${dataItem.name} is in stock`);
-//     }
-// })
+data.map((dataItem) => {
+    if (dataItem.inStock) {
+        console.log(`${dataItem.name} is in stock`);
+    }
+})
 
 //  7 Print names of products with rating > 4.5.
 
-// data.map((dataItem) => {
-//     if (dataItem.rating > 4.5)
-//         console.log(`${dataItem.name} has a rating of over 4.5`);
-// })
+data.map((dataItem) => {
+    if (dataItem.rating > 4.5)
+        console.log(`${dataItem.name} has a rating of over 4.5`);
+})
 
 //  8 Show the total price of all in-stock items.
 
@@ -127,9 +127,9 @@ const newItem = {
 };
 
 const updatedData = [...data, newItem];
-// updatedData.map((dataItem) => {
-//     console.log(dataItem);
-// })
+updatedData.map((dataItem) => {
+    console.log(dataItem);
+})
 
 // 10 Adding a new field (column) to every object
 data.forEach((item) => {
