@@ -110,3 +110,19 @@ const updated = (users.map(u => ({ ...u, marks: Math.floor(Math.random() * 50) }
 
 const total = updated.reduce((acc, u) => acc + u.marks, 0);
 console.log(updated, total);
+
+// Remove duplicates from an array
+const arr3 = [1, 2, 2, 3, 3, 4, 4];
+const uniqueArr = [...new Set(arr3)];
+console.log(uniqueArr);
+
+// Closure of
+function outer() {
+    let outerVar = "I'm in the outer scope";
+    function inner() {
+        console.log(outerVar);
+    }
+    return inner;
+}
+const closure = outer();
+closure();

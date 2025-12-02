@@ -8,7 +8,7 @@ console.log(substr);
 
 // ii) slice
 console.log(str.slice(0, 4));
-console.log(str.slice(-1));
+console.log("str slice from -1",str.slice(-1));
 
 // ii) includes
 // includes // - return true / false
@@ -36,7 +36,7 @@ console.log(url.replace('%20', '-'));
 console.log(str.split('-'));
 
 const arr = [4, 5, 6, 7];
-console.log(arr.slice(1));
+console.log("arr slice1",arr.slice(1));
 
 const strr = "hello";
 const rev = strr.split('').reverse().join('');
