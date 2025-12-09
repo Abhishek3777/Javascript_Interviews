@@ -70,3 +70,5 @@ const totalMarks = students.map((stu) => {
 }).filter((stu) => stu.marks > 60).reduce((acc, curr) => acc + curr.marks, 0);
 
 console.log(totalMarks);
+
+do necessary clean up
