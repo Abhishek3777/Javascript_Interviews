@@ -126,5 +126,3 @@ function outer() {
 }
 const closure = outer();
 closure();
-
-// do some cleaning 
