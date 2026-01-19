@@ -1,4 +1,3 @@
-const { set } = require("mongoose");
 
 // Q1 Flatten a 1D Array
 function flattenArray(arr) {
