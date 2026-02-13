@@ -18,7 +18,7 @@ Return new accumulator value
 // map()
 const nums = [1, 2, 3, 4];
 const newnums = nums.map((n) => n * 2);
-// console.log(newnums);
+console.log(newnums);
 
 // fitler()
 const even = nums.filter((n) => n % 2 == 0);

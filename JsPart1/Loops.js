@@ -10,7 +10,7 @@ const obj = { name: 'Dexter', age: 22 };
 for (let fruit of arr) {
     // console.log(fruit);
 }
-
+const array = [1, 2, 3, 4, 5, 6];
 for(let i = 0; i < arr.length; i++){
     console.log(arr[i]);
 }
